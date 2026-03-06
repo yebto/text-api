@@ -99,7 +99,7 @@ Register at [yeb.to](https://yeb.to) with Google OAuth to get a free API key.
 
 ## Support
 
-- Documentation: [docs.yeb.to](https://docs.yeb.to)
+- API Documentation: [https://yeb.to/api/text](https://yeb.to/api/text)
 - Email: support@yeb.to
 - Issues: [GitHub Issues](https://github.com/yebto/text-api/issues)
 
