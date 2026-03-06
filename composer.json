@@ -1,0 +1,54 @@
+{
+    "name": "yebto/text-api",
+    "description": "PHP SDK for the YEB Text API. Translate, rephrase, correct, summarize and explain text with AI.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "yeb",
+        "api",
+        "sdk",
+        "laravel",
+        "php",
+        "text",
+        "translate",
+        "rephrase",
+        "summarize",
+        "ai"
+    ],
+    "homepage": "https://yeb.to",
+    "support": {
+        "email": "support@yeb.to",
+        "issues": "https://github.com/yebto/text-api/issues",
+        "source": "https://github.com/yebto/text-api"
+    },
+    "authors": [
+        {
+            "name": "NETOX Ltd.",
+            "email": "support@yeb.to",
+            "homepage": "https://yeb.to",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "yebto/api-client": "^1.0"
+    },
+    "suggest": {
+        "illuminate/support": "Required for Laravel Facade & ServiceProvider integration (^10.0|^11.0|^12.0)"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yebto\\TextAPI\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yebto\\TextAPI\\TextAPIServiceProvider"
+            ],
+            "aliases": {
+                "TextAPI": "Yebto\\TextAPI\\Facades\\TextAPI"
+            }
+        }
+    }
+}
